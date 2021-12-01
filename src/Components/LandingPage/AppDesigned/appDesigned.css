@@ -1,0 +1,40 @@
+.app-designed-text-div{
+text-align: left;
+padding: 80px 100px 80px 0px;
+margin-left: -60px;
+}
+.app-designed-heading{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+.app-designed-heading span{
+    color: #12BFA2;
+}
+.app-designed-description{
+font-weight: normal;
+font-size: 22px;
+color: white;
+}
+@media only screen and (max-width:991px) {
+    .app-designed-text-div{
+        margin: 0px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .app-designed-text-div{
+        padding: 0px 20px ;
+        margin-left: 0px;
+    }
+    .app-designed-heading{
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .app-designed-description{
+        font-size: 16px;
+    }
+    .get-in-button-div{
+        text-align: center;
+    }
+}

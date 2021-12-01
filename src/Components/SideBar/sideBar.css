@@ -1,0 +1,135 @@
+.side-bar-main-div{
+  background-color: #151924;
+}
+.logo{
+  width: 250px;
+  position: absolute;
+  top: 30px;
+  margin-left: -120px;
+}
+.sidebar-main-div{
+  width: 500px;
+  background-color: #12BFA2;
+  position: fixed;
+  left: -500px;
+  height: 100vh;
+  display: none;
+  z-index: 99;
+  text-align: left;
+  padding: 20px;
+}
+ ul{
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  margin-top: 50px;
+}
+ li{
+  list-style-type: none;
+}
+.sidebar-heading{
+font-weight: bold;
+font-size: 34px;
+}
+.sidebar-sub-heading{
+  font-size: 25px;
+}
+.sidebar-heading hr{
+  width: 75px;
+  height: 2px;
+  background-color: white;
+}
+.open-sidebar-button{
+  position: absolute;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 32px;
+  top: 25px;
+}
+.close-button-div{
+  text-align: left;
+}
+.close-side-bar-button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 32px;
+  text-align: left;
+}
+.show-side-bar{
+  animation: OpenSideBar 5s 10ms ;
+  animation-direction: alternate;
+  width: 500px;
+  left: 0;
+  background-color: #12BFA2;
+  position: fixed;
+  height: 100vh;
+  display: block;
+  padding: 20px;
+}
+.hide-side-bar{
+  animation: HideSideBar 5s ;
+  animation-direction: alternate;
+  width: 500px;
+  background-color: #12BFA2;
+  position: absolute;
+  height: 100vh;
+  left: -500px;
+  padding: 20px;
+
+}
+@keyframes HideSideBar {
+  0%   {left: -0px; }
+  25%  { left: -500px;}
+  50%  { left: -500px;}
+  75%  { left: -500px; }
+  100% {left: -500px;}
+}
+@keyframes OpenSideBar {
+  0%   {left: -500px; }
+  25%  { left: 0px;}
+  50%  { left: 0px;}
+  75%  { left: 0px; }
+  100% {left: 0px;}
+}
+@media only screen and (max-width:768px) {
+  .sidebar-heading{
+    font-size: 25px;
+  }
+  .sidebar-sub-heading{
+    font-size: 18px;
+  }
+  .sidebar-main-div{
+    width: 375px;
+    left: -375px;
+    padding: 20px;
+  }
+  .show-side-bar{
+    animation: OpenSideBar 5s 10ms ;
+    width: 375px;
+    padding: 20px;
+  }
+  .hide-side-bar{
+    animation: HideSideBar 5s ;
+    width: 375px;
+    left: -375px;
+    padding: 20px;
+  
+  }
+  @keyframes HideSideBar {
+    0%   {left: -0px; }
+    25%  { left: -375px;}
+    50%  { left: -375px;}
+    75%  { left: -375px; }
+    100% {left: -375px;}
+  }
+  @keyframes OpenSideBar {
+    0%   {left: -375px; }
+    25%  { left: 0px;}
+    50%  { left: 0px;}
+    75%  { left: 0px; }
+    100% {left: 0px;}
+  }
+}

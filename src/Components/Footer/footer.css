@@ -1,0 +1,67 @@
+.footer-container{
+    color: white;
+    background-color: #161825;
+    padding-top: 30px;
+}
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 0px 100px;
+    border-top: 1px solid white;
+}
+.footer-image-div{
+    text-align: left;
+    margin-left: -100px;
+}
+.footer-text-div{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    margin-right: -120px;
+}
+.footer-text-div div{
+    padding: 0px 25px;
+}
+.footer-text-div h3{
+    font-size: 20px;
+}
+.footer-text-div{
+    font-size: 14px;
+}
+.footer-copyright-text-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 120px;
+    margin-top: 40px;
+}
+.footer-linkedin-button{
+    width: 50px;
+    height: 50px;
+    background: #323438;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 20px;
+}
+@media only screen and (max-width:768px) {
+    .footer-div{
+        flex-direction: column-reverse;
+    }
+    .footer-text-div{
+        flex-direction: column;
+        margin: auto;
+    }
+    .footer-image-div{
+        margin-left: 0px;
+    }
+    .footer-text-main-div{
+        margin: auto;
+    }
+    .footer-copyright-text-div{
+        flex-direction: column-reverse;
+        padding: 0px 120px;
+        margin-top: 40px;
+    }
+}

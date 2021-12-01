@@ -1,0 +1,30 @@
+.future-is-electronic-container{
+    background-image: url("../../../Assests/Images/Image\ from\ iOS\ 1.png");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+    padding-top: 60px;
+    background-position: 0px 150px;
+}
+.future-electronic-div{
+    padding: 20px 25%;
+}
+.future-electronic-div p {
+    margin: 20px 0px -5px 0px;
+    font-size: 20px;
+}
+.future-electronic-div h2{
+    font-size: 44px;
+}
+.future-electronic-div h2 span{
+    color: #12BFA2;
+}
+@media only screen and (max-width:768px) {
+    .future-electronic-div h2{
+        font-size: 29px;
+    }
+    .future-electronic-div{
+        padding: 20px 20px;
+    }
+}
