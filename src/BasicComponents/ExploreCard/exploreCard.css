@@ -53,4 +53,8 @@ vertical-align: middle;
         padding-right: 0px;
         padding-left: 30px;
     }
+    .card-icon{
+        width: 27px;
+        height:27px;
+        }
 }

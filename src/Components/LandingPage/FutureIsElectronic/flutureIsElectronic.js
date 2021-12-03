@@ -9,13 +9,13 @@ class FutureIsElectronic extends Component {
     render() { 
         return (
             <React.Fragment>
-                <Container fluid className="future-is-electronic-container">
+                <div  className="future-is-electronic-container">
                     <div className="future-electronic-div">
                         <p>The Future is Electric</p>
                         <h2>Go<span>PowerEV</span> provides an affordable, hassle-free charging solution for property owners and tenants.</h2>
                         <Buttons>Learn More</Buttons>
                     </div>
-                </Container>
+                </div>
             </React.Fragment>
         );
     }

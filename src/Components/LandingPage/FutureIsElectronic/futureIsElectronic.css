@@ -1,11 +1,11 @@
 .future-is-electronic-container{
-    background-image: url("../../../Assests/Images/Image\ from\ iOS\ 1.png");
-    background-size: 100% 700px;
+    background: url("../../../Assests/Images/Image\ from\ iOS\ 1.png");
+    background-size: contain;
     background-repeat: no-repeat;
     height: 800px;
     color: white;
     padding-top: 60px;
-    background-position: 0px 150px;
+    background-position: center;
 }
 .future-electronic-div{
     padding: 20px 25%;

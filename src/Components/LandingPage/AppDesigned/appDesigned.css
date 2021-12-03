@@ -17,9 +17,15 @@ font-weight: normal;
 font-size: 22px;
 color: white;
 }
+.app-designed-image{
+    width: 100%;
+}
 @media only screen and (max-width:991px) {
     .app-designed-text-div{
         margin: 0px;
+    }
+    .app-designed-image{
+        width: 60%;
     }
 }
 @media only screen and (max-width:768px) {
@@ -30,6 +36,9 @@ color: white;
     .app-designed-heading{
         font-size: 32px;
         margin-top: 30px;
+    }
+    .app-designed-image{
+        width: 100%;
     }
     .app-designed-description{
         font-size: 16px;

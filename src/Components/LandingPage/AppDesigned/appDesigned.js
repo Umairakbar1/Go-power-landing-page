@@ -9,10 +9,10 @@ class AppDesigned extends Component {
     render() { 
         return (
             <React.Fragment>
-                <Container fluid className="pt-5">
+                <div  className="pt-5">
                     <Row>
                         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
-                            <img src={AppDesignImage} width="100%"/>
+                            <img src={AppDesignImage} className="app-designed-image my-auto"/>
                         </Col>
                         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
                             <div className="app-designed-text-div">
@@ -24,7 +24,7 @@ class AppDesigned extends Component {
                             </div>
                         </Col>
                     </Row>
-                </Container >
+                </div >
             </React.Fragment>
         );
     }

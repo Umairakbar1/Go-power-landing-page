@@ -6,12 +6,13 @@ import {FaBars,FaTimes} from "react-icons/fa"
 class SideBar extends Component {
     state={} 
     opneSideBar = ()=>{
-        document.getElementById("sideBar").classList.remove("sidebar-main-div")
         document.getElementById("sideBar").classList.add("show-side-bar")
+
+        // document.getElementById("sideBar").classList.remove("sidebar-main-div")
         document.getElementById("sideBar").classList.remove("hide-side-bar")
     }
     HideSideBar = ()=>{
-        document.getElementById("sideBar").classList.remove("show-side-bar")
+        // document.getElementById("sideBar").classList.remove("show-side-bar")
         document.getElementById("sideBar").classList.add("hide-side-bar")
 
     }

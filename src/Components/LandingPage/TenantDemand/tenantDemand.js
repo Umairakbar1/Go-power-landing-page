@@ -12,12 +12,12 @@ class TenantDemand extends Component {
     render() { 
         return (
             <React.Fragment>
-                <Container fluid className="tenant-demand-container" >
+                <div  className="tenant-demand-container" >
                     <Row>
-                        <Col className="switch-image-col">
-                            <img src={TenantImage} width="60%"/>
+                        <Col className="switch-image-col my-auto" xl={6} lg={6} md={12} sm={12} xs={12}>
+                            <img src={TenantImage} className="tenant-iamge" />
                         </Col>
-                        <Col className="my-auto">
+                        <Col className="tenant-demand-col" xl={6} lg={6} md={12} sm={12} xs={12}>
                             <h2 className="tenent-heading">Tenant demand for <span> EV charging </span>is skyrocketing</h2>
                             <Row className="tenant-demand-text-row">
                                 <Col xl={6} lg={6} md={6} sm={6} xs={6}>
@@ -50,7 +50,7 @@ class TenantDemand extends Component {
                             <img src={SmallScreenCar} width="100%"/>
                         </Col>
                     </Row>
-                </Container>
+                </div>
             </React.Fragment>
         );
     }

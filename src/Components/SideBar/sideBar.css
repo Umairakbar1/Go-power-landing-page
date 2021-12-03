@@ -7,17 +7,7 @@
   top: 30px;
   margin-left: -120px;
 }
-.sidebar-main-div{
-  width: 500px;
-  background-color: #12BFA2;
-  position: fixed;
-  left: -500px;
-  height: 100vh;
-  display: none;
-  z-index: 99;
-  text-align: left;
-  padding: 20px;
-}
+
  ul{
   list-style-type: none;
   text-align: left;
@@ -58,30 +48,34 @@ font-size: 34px;
   font-size: 32px;
   text-align: left;
 }
-.show-side-bar{
-  animation: OpenSideBar 5s 10ms ;
-  animation-direction: alternate;
+.sidebar-main-div{
   width: 500px;
-  left: 0;
   background-color: #12BFA2;
   position: fixed;
   height: 100vh;
-  display: block;
+  display: none;
+  z-index: 99;
+  text-align: left;
   padding: 20px;
+  left: -500px;
+  animation: OpenSideBar 5s 10ms ;
+  animation-direction: alternate;
+}
+.show-side-bar{
+  display: block;
 }
 .hide-side-bar{
   animation: HideSideBar 5s ;
   animation-direction: alternate;
   width: 500px;
   background-color: #12BFA2;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   left: -500px;
   padding: 20px;
-
 }
 @keyframes HideSideBar {
-  0%   {left: -0px; }
+  0%   {left: 0px; }
   25%  { left: -500px;}
   50%  { left: -500px;}
   75%  { left: -500px; }
