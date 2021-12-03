@@ -8,9 +8,9 @@
 }
 .switch-image-col{
      background-image: url("../../../Assests/Images/Rectangle\ 92.png");
-     background-size: 100%;
+     background-size: contain;
      background-repeat: no-repeat;
-     padding: 40px 0px;
+     padding: 70px 0px;
      background-position: center;
 }
 .tenent-heading span{
