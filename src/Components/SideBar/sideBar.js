@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-
-import "./sideBar.css";
+//      importing components
+//      importing images/Icons
 import Logo from "../../Assests/Images/logo.PNG"
 import {FaBars,FaTimes} from "react-icons/fa"
+//      importing css files
+import "./sideBar.css";
 class SideBar extends Component {
     state={} 
     opneSideBar = ()=>{

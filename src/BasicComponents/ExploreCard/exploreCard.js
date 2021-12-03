@@ -1,5 +1,7 @@
 import React from 'react';
+//     importing components
 import { Col, Container, Row } from 'react-bootstrap';
+//     importing css files
 import "./exploreCard.css";
 export const ExploresCard = (props) =>{
     return(

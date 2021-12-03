@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+//      importing components
 import { Col, Container, Row } from 'react-bootstrap';
+//      importing images/Icons
 import FooterLogo from "../../Assests/Images/footerlogo.PNG";
 import {FaLinkedinIn} from "react-icons/fa";
+//      importing css files
 import "./footer.css"
 class Footer extends Component {
     render() { 

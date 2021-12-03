@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+//      importing components
 import { Col, Row } from 'react-bootstrap';
 import {ExploresCard,IconCard} from "../../../BasicComponents/ExploreCard/exploreCard";
+//      importing images/Icons
 import Icons1 from "../../../Assests/Icons/Vector.png"
 import Icons2 from "../../../Assests/Icons/Vector1.png"
 import Icons3 from "../../../Assests/Icons/Vector2.png"
 import Icons4 from "../../../Assests/Icons/Vector3.png"
-
+//      importing css files
 class ExploreOurTurnKey extends Component {
     render() { 
         return (

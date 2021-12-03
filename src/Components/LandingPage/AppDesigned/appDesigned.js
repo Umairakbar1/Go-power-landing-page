@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+//      importing components
 import { Col, Container, Row } from 'react-bootstrap';
-
+//      importing images/Icons
 import AppDesignImage from "../../../Assests/Images/AppDesignImage.png"
 import {Buttons} from "../../../BasicComponents/Button/button";
+//      importing css files
 import "./appDesigned.css";
 class AppDesigned extends Component {
     state={}
