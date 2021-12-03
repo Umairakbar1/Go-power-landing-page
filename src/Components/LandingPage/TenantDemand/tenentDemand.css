@@ -11,6 +11,7 @@
      background-size: 100%;
      background-repeat: no-repeat;
      padding: 40px 0px;
+     background-position: center;
 }
 .tenent-heading span{
     color: #12BFA2;
@@ -76,7 +77,7 @@
     }
     
     .tenant-demand-text-row div{
-        padding: 0px 0px 0px 0px;
+        padding: 0px 10px 0px 10px;
     }
     .tenant-demand-text-row h5{
         font-size: 18px;

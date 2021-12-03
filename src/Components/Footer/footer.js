@@ -8,7 +8,9 @@ class Footer extends Component {
         return (
             <React.Fragment>
                 <Container fluid className="footer-container">
+                
                     <Container className="footer-div">
+                        
                         <div className="footer-image-div">
                             <img src={FooterLogo} width="100%"/>
                             <button className="footer-linkedin-button"><FaLinkedinIn/></button>

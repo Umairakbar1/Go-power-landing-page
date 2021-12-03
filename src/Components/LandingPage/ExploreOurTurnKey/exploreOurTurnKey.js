@@ -10,6 +10,7 @@ class ExploreOurTurnKey extends Component {
     render() { 
         return (
         <React.Fragment>
+                <div className="explore-turn-key-div">
                     <ExploresCard  heading={"Explore Our Turnkey Solution"} descrip={"GoPowerEV provides an all-inclusive answer to EV charging needs at multi-family properties. With $0 upfront cost, our subscription service manages electrical permitting, installation, tenant onboarding, energy costs, and maintenance. "}>
                         <Row>
                             <Col xl={6} lg={6} md={6} sm={6} xs={6}>
@@ -26,6 +27,7 @@ class ExploreOurTurnKey extends Component {
                             </Col>
                         </Row>
                     </ExploresCard>
+                </div>
         </React.Fragment>
         );
     }

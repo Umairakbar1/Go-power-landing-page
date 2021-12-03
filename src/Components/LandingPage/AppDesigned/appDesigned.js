@@ -14,7 +14,7 @@ class AppDesigned extends Component {
                         <Col xl={6} lg={6} md={12} sm={12} xs={12}>
                             <img src={AppDesignImage} className="app-designed-image my-auto"/>
                         </Col>
-                        <Col xl={6} lg={6} md={12} sm={12} xs={12}>
+                        <Col xl={6} lg={6} md={12} sm={12} xs={12} className="my-auto">
                             <div className="app-designed-text-div">
                             <h2 className="app-designed-heading">App designed for Designed for <span> easy, hassle-free charging.</span></h2>
                             <p className="app-designed-description">Attractive, discreet IoT devices enable every parking spot for convenient L1 or L2 charging with no messy cords or bulky stations. Tenants can customize each charging session with an easy app that handles electrical usage and payments.</p>
